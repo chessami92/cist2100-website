@@ -11,12 +11,10 @@ div {
 
 h1 {
     margin: 0;
-    font-size: 300%;
 }
 
 h2 {
     margin: 0;
-    font-size: medium;
 }
 
 .content {
@@ -40,6 +38,14 @@ h2 {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+.header h1 {
+    font-size: 300%;
+}
+
+.header h2 {
+    font-size: medium;
 }
 
 .menu {
@@ -77,6 +83,13 @@ h2 {
 
 #content {
     overflow: auto;
+}
+
+#content h1 {
+    margin: 5px;
+    padding: 5px;
+    background-color: #ddd;
+    border-radius: 10px;
 }
 
 #main {
