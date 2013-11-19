@@ -1,5 +1,5 @@
 body {
-    width: 900px;
+    width: 960px;
     margin: 0 auto;
     background-color: #ddd;
     font-family: sans-serif;
@@ -73,4 +73,18 @@ h2 {
 .smoothColor {
     transition: background-color 500ms, color 500ms;
     -webkit-transition: background-color 500ms, color 500ms;
+}
+
+#content {
+    overflow: auto;
+}
+
+#main {
+    float: left;
+    width: 70%;
+}
+
+#sidebar {
+    float: right;
+    width: 25%;
 }
