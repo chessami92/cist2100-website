@@ -9,6 +9,16 @@ div {
     border-radius: 10px;
 }
 
+h1 {
+    margin: 0;
+    font-size: 300%;
+}
+
+h2 {
+    margin: 0;
+    font-size: medium;
+}
+
 .content {
     border-style: solid;
     border-color: #a640d6;
@@ -28,7 +38,6 @@ div {
 .header {
     background-color: #a640d6;
     color: #fff;
-    font-size: 300%;
     text-align: center;
     padding: 10px;
 }
