@@ -1,0 +1,136 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ddd;
+    font-family: sans-serif;
+}
+
+div {
+    border-radius: 10px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+table td, table th {
+    border-radius: 3px;
+    border: 1px solid #a640d6;
+}
+
+h1, h2 {
+    clear: both;
+    margin: 0;
+}
+
+.content {
+    border-style: solid;
+    border-color: #a640d6;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.centered {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.small {
+    font-size: small;
+}
+
+.header {
+    background-color: #a640d6;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.header form {
+    font-size: x-small;
+}
+
+.header input {
+    font-size: x-small;
+    width: 75px;
+}
+
+.header h1 {
+    font-size: 300%;
+}
+
+.header h2 {
+    font-size: medium;
+}
+
+.menu {
+    display: table;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.menu li {
+    width: 20%;
+    display: table-cell;
+    text-align: center;
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    border-radius: 10px;
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+    padding: 3px;
+}
+
+.menu li a:hover {
+    background-color: #fff;
+    color: #a640d6;
+}
+
+.smoothColor {
+    transition: background-color 500ms, color 500ms;
+    -webkit-transition: background-color 500ms, color 500ms;
+}
+
+#content {
+    overflow: auto;
+}
+
+#content h1, #content h2 {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#content h1, #main h2 {
+    background-color: #f2e6f0;
+}
+
+#main h3 {
+    display: inline;
+    font-size: small;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.split {
+    width: 46%;
+}
+
+#main {
+    width: 70%;
+}
+
+#sidebar {
+    width: 25%;
+}
