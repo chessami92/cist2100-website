@@ -10,6 +10,7 @@ div {
 }
 
 h1 {
+    clear: both;
     margin: 0;
 }
 
@@ -38,6 +39,15 @@ h2 {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+.header form {
+    font-size: x-small;
+}
+
+.header input {
+    font-size: x-small;
+    width: 75px;
 }
 
 .header h1 {
