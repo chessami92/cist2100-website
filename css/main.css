@@ -1,0 +1,67 @@
+body {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ddd;
+    font-family: sans-serif;
+}
+
+div {
+    border-radius: 10px;
+}
+
+.content {
+    border-style: solid;
+    border-color: #a640d6;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.centered {
+    text-align: center;
+}
+
+.small {
+    font-size: small;
+}
+
+.header {
+    background-color: #a640d6;
+    color: #fff;
+    font-size: 300%;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    display: table;
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.menu li {
+    width: 25%;
+    display: table-cell;
+    text-align: center;
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    border-radius: 10px;
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+    padding: 3px;
+}
+
+.menu li a:hover {
+    background-color: #fff;
+    color: #a640d6;
+}
+
+.smoothColor {
+    transition: background-color 500ms, color 500ms;
+    -webkit-transition: background-color 500ms, color 500ms;
+}
