@@ -9,12 +9,17 @@ div {
     border-radius: 10px;
 }
 
-h1 {
-    clear: both;
-    margin: 0;
+table {
+    border-spacing: 0;
 }
 
-h2 {
+table td, table th {
+    border-radius: 3px;
+    border: 1px solid #a640d6;
+}
+
+h1, h2 {
+    clear: both;
     margin: 0;
 }
 
@@ -27,6 +32,7 @@ h2 {
 }
 
 .centered {
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -95,19 +101,36 @@ h2 {
     overflow: auto;
 }
 
-#content h1 {
-    margin: 5px;
+#content h1, #content h2 {
     padding: 5px;
-    background-color: #ddd;
     border-radius: 10px;
 }
 
-#main {
+#content h1, #main h2 {
+    background-color: #f2e6f0;
+}
+
+#main h3 {
+    display: inline;
+    font-size: small;
+}
+
+.left {
     float: left;
+}
+
+.right {
+    float: right;
+}
+
+.split {
+    width: 47.5%;
+}
+
+#main {
     width: 70%;
 }
 
 #sidebar {
-    float: right;
     width: 25%;
 }
