@@ -36,12 +36,12 @@ div {
 .menu {
     display: table;
     width: 100%;
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
     padding: 0;
 }
 
 .menu li {
-    width: 25%;
+    width: 20%;
     display: table-cell;
     text-align: center;
 }
