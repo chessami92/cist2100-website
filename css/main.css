@@ -15,7 +15,7 @@ table {
 
 table td, table th {
     border-radius: 3px;
-    border: 1px solid #a640d6;
+    border: 1px solid #409999;
 }
 
 h1, h2 {
@@ -25,7 +25,7 @@ h1, h2 {
 
 .content {
     border-style: solid;
-    border-color: #a640d6;
+    border-color: #409999;
     margin: 10px 0 10px 0;
     padding: 5px;
     background-color: #fff;
@@ -41,7 +41,7 @@ h1, h2 {
 }
 
 .header {
-    background-color: #a640d6;
+    background-color: #409999;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -89,7 +89,7 @@ h1, h2 {
 
 .menu li a:hover {
     background-color: #fff;
-    color: #a640d6;
+    color: #409999;
 }
 
 .smoothColor {
@@ -107,7 +107,7 @@ h1, h2 {
 }
 
 #content h1, #main h2 {
-    background-color: #f2e6f0;
+    background-color: #b0dddd;
 }
 
 #main h3 {
